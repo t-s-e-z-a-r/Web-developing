@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+}
+main, header{
+    margin: 0 5%;
+    background-color: white;
+
+}
+main{
+    height: 100vh;
+}
+.child{
+    max-width: 300px;
+}
+.child  img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.child h2{
+    text-align: center;
+}
+#d{
+    margin-bottom: 0;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+.subtext{
+    text-align: center;
+    font-size: 15px;
+    margin: 4px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around   ;
+    align-items: center;    
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
